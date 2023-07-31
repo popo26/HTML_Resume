@@ -1,0 +1,42 @@
+*{
+    margin:0;
+}
+
+body{
+    height:100vh;
+    background-color: grey;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+
+header{
+    font-size:8rem;
+    padding:100px 0 100px;
+}
+
+.container{
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: column;
+    float:left;
+}
+
+.summary {
+    background-color:burlywood;
+}
+
+.work{
+    background-color: cadetblue;
+}
+
+.education{
+    background-color: coral;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    padding:20px 0 20px 0;
+}
