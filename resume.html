@@ -4,44 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume-Ai Oakenfull</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/2ab82c0a3d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div id="wrapper">
-      <div id="header">
+      <header>
         <h1 class="name">Ai Oakenfull</h1>
         <h3 class="position">Junior Full Stack Developer</h3>
-      </div>
-      <div id="content">
-        <div class="left-container">
-          <div class="bio">
+      </header>
+      <main>
+        <section class="left-container">
+          <article class="bio">
             <h2>Bio</h2>
             <ul class="bio-ul">
               <li>
-                GITHUB:
+                <i class="fa-brands fa-github fa-lg"></i>
                 <a href="https://github.com/popo26" target="_blank"
                   >www.github.com/popo26</a
                 >
               </li>
               <li>
-                WEBSITE:
+                <i class="fa-solid fa-link"></i>
                 <a href="https://aioakenfull.com/" target="_blank"
                   >www.aioakenfull.com</a
                 >
               </li>
               <li>
-                EMAIL:
+                <i class="fa-brands fa-linkedin fa-lg"></i>
+                <a
+                  href="https://www.linkedin.com/in/ai-oakenfull-319297163/"
+                  target="_blank"
+                  >www.linkedin.com/in/ai-oakenfull</a
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
                 <a
                   href="mailto:ai.oakenfull@gmail.com?subject=Mail from Ai's HTML Resume"
                   >ai.oakenfull@gmail.com</a
                 >
               </li>
-              <li>PHONE: <a href="tel:+64210757620">+64 21 075 7620</a></li>
-              <li>ADDRESS: <span>Northcross Auckland 0632</span></li>
-              <li>VISA: <span>NZ Permanent Resident</span></li>
+              <li>
+                <i class="fa-solid fa-phone fa-sm"></i>
+                <a href="tel:+64210757620">+64 21 075 7620</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Northcross Auckland 0632</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-house"></i>
+                <span>NZ Permanent Resident</span>
+              </li>
             </ul>
-          </div>
-          <div class="skills">
+          </article>
+          <article class="skills">
             <h2>Skills</h2>
             <ul class="skills-ul">
               <li>HTML/CSS/JavaScript</li>
@@ -51,10 +73,10 @@
               <li>PostgreSQL/MSSQL</li>
               <li>Active Learning</li>
             </ul>
-          </div>
-        </div>
-        <div class="right-container">
-          <div class="summary">
+          </article>
+        </section>
+        <section class="right-container">
+          <article class="summary">
             <h2>Summary</h2>
             <p>
               With a background in Systems Support Engineer and Support
@@ -69,8 +91,8 @@
               programming skills to deliver interactive full-stack web
               applications that provide exceptional user experiences.
             </p>
-          </div>
-          <div class="work">
+          </article>
+          <article class="work">
             <h2>Work Experiences</h2>
             <div class="title-content-div">
               <img
@@ -111,7 +133,6 @@
               </ul>
             </div>
             <br />
-            <br />
             <div class="title-content-div">
               <img class="logo" src="./images/jket-logo.png" alt="jket-logo" />
               <h4><em>FULL STACK WEB DEVELOPER [VOLUNTEER]</em></h4>
@@ -139,8 +160,8 @@
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="education">
+          </article>
+          <article class="education">
             <h2>Education</h2>
             <div class="title-content-div">
               <img
@@ -183,12 +204,12 @@
                 <li>Rest API</li>
               </ul>
             </div>
-          </div>
-        </div>
-      </div>
-      <div id="footer">
+          </article>
+        </section>
+      </main>
+      <footer>
         <footer>&copy; Ai Oakenfull <span id="year"></span></footer>
-      </div>
+      </footer>
     </div>
     <script>
       document.getElementById("year").innerHTML = new Date().getFullYear();
